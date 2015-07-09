@@ -7,6 +7,8 @@ from dulwich.repo import Repo
 import logging
 import pyhooklib
 
+pyhooklib.log_comprehensive_call_details()
+
 enum = object
 
 DEFAULT_REFCHANGE_TYPE = enum()
